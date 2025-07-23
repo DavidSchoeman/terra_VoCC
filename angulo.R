@@ -4,6 +4,8 @@
 #' @author Jorge Garcia Molinos and David S. Schoeman
 #' angulo()
 
+require(CircStats)
+
 angulo <- function(dx, dy){
 		d <- cbind(dx, dy)
 			angline <- function(rw){
